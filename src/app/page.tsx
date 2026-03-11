@@ -164,7 +164,7 @@ export default function LandingPage() {
       <div id="pricing" data-section="pricing">
         <PricingCardEight
           title="Ad Creative Pricing"
-          description="Professional monthly ad creative packages to keep your campaigns fresh and competitive."
+          description="Professional monthly ad creative packages to keep your campaigns fresh and competitive. These plans cover ad creative production only. For website design and Meta ads management, please contact us for a custom quote or book a strategy call."
           tag="Transparent Pricing"
           tagIcon={DollarSign}
           plans={[
