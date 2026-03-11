@@ -88,7 +88,6 @@ export default function LandingPage() {
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
-          mediaAnimation="slide-up"
         />
       </div>
 
@@ -132,7 +131,6 @@ export default function LandingPage() {
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
-          mediaAnimation="slide-up"
         />
       </div>
 
