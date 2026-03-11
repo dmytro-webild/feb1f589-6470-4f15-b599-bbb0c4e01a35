@@ -48,7 +48,7 @@ export default function LandingPage() {
           tag="Customer Acquisition Engine"
           tagIcon={Zap}
           buttons={[
-            { text: "Request a Free Demo Website", href: "contact" },
+            { text: "Get Your Free Demo Website", href: "contact" },
             { text: "Book a Call", href: "contact" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png"
