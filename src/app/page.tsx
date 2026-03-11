@@ -246,8 +246,8 @@ export default function LandingPage() {
           title="Start Getting More Customers Today"
           description="Let's discuss your customer acquisition goals and build a strategy that brings you results. Whether you need a website, ads, creative, or a complete system, we're ready to help."
           buttons={[
-            { text: "Request Your Free Demo Website", href: "#" },
-            { text: "Book a Strategy Call", href: "#" }
+            { text: "Request Your Free Demo Website", href: "contact" },
+            { text: "Book a Strategy Call", href: "contact" }
           ]}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
