@@ -1,17 +1,17 @@
 "use client"
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
-import HeroBillboard from "@/components/sections/hero/HeroBillboard";
-import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
-import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
-import ProductCardFour from "@/components/sections/product/ProductCardFour";
-import PricingCardEight from "@/components/sections/pricing/PricingCardEight";
-import TestimonialCardSixteen from "@/components/sections/testimonial/TestimonialCardSixteen";
-import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
-import ContactCTA from "@/components/sections/contact/ContactCTA";
-import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
-import { Zap, Layers, Sparkles, CheckCircle, Target, DollarSign, Quote, Rocket, Users } from "lucide-react";
+import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
+import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
+import ProductCardFour from '@/components/sections/product/ProductCardFour';
+import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
+import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import ContactCTA from '@/components/sections/contact/ContactCTA';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
+import { Zap, Layers, Sparkles, CheckCircle, Target, DollarSign, Quote, Rocket, Users, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -21,7 +21,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="compact"
       sizing="mediumLarge"
-      background="noise"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="layered"
@@ -44,7 +44,7 @@ export default function LandingPage() {
         <HeroBillboard
           title="Websites and Ads Built to Bring You Customers"
           description="We help service businesses and brands generate leads, booked appointments, and sales online through high-converting websites, Meta ads management, and professional ad creative production. Your complete customer acquisition system."
-          background={{ variant: "noise" }}
+          background={{ variant: "sparkles-gradient" }}
           tag="Customer Acquisition Engine"
           tagIcon={Zap}
           buttons={[
@@ -106,6 +106,7 @@ export default function LandingPage() {
           imageAlt="Demo website preview mockup"
           useInvertedBackground={true}
           mediaAnimation="slide-up"
+          metricsAnimation="slide-up"
         />
       </div>
 
@@ -175,7 +176,7 @@ export default function LandingPage() {
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Zap,
+              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
               price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
