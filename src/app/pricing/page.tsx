@@ -44,15 +44,18 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "starter",              subtitle: "Perfect for small businesses",              price: "$200/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "starter",              badge: "Good for Beginners",              badgeIcon: Sparkles,
+              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              subtitle: "Ideal for growing companies",              price: "$350/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
+              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              subtitle: "For established brands",              price: "$500/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
+              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
             }
           ]}
@@ -64,22 +67,25 @@ export default function PricingPage() {
 
       <div id="pricing-nine" data-section="pricing-nine">
         <PricingCardNine
-          title="Service Packages"
-          description="Comprehensive solutions tailored to your business needs with flexible pricing options."
-          tag="Our Services"
-          tagIcon={DollarSign}
+          title="Service Plans"
+          description="Comprehensive packages designed to help your business grow with our complete customer acquisition system."
+          tag="All-in-One Solutions"
+          tagIcon={Zap}
           plans={[
             {
-              id: "website",              subtitle: "Fast & effective web solutions",              price: "Starting at $2,500",              buttons: [{ text: "Learn More", href: "/contact" }],
-              features: ["24-72 hour delivery", "Mobile optimized", "Lead capture forms", "Click-to-call buttons", "SEO ready"]
+              id: "essential",              badge: "Essential",              badgeIcon: Sparkles,
+              price: "$1,500",              subtitle: "Perfect for getting started",              buttons: [{ text: "Get Started", href: "/contact" }],
+              features: ["Custom website design", "Basic Meta ads setup", "Initial creative package", "30-day support"]
             },
             {
-              id: "ads",              subtitle: "Strategic ad management",              price: "Starting at $1,000",              buttons: [{ text: "Learn More", href: "/contact" }],
-              features: ["Audience research", "Campaign setup", "Lead optimization", "Performance tracking", "Monthly reporting"]
+              id: "professional",              badge: "Professional",              badgeIcon: Star,
+              price: "$2,500",              subtitle: "Most popular choice",              buttons: [{ text: "Get Started", href: "/contact" }],
+              features: ["Advanced website design", "Full Meta ads management", "Monthly creative production", "3-month strategy support", "Performance optimization"]
             },
             {
-              id: "creative",              subtitle: "Monthly creative production",              price: "Starting at $200/mo",              buttons: [{ text: "Learn More", href: "/contact" }],
-              features: ["Multiple variations", "Various formats", "Copy testing", "Platform specs", "Ready to launch"]
+              id: "enterprise",              badge: "Enterprise",              badgeIcon: Zap,
+              price: "$4,000",              subtitle: "Maximum growth potential",              buttons: [{ text: "Get Started", href: "/contact" }],
+              features: ["Premium website design", "Dedicated ads manager", "Weekly creative delivery", "6-month strategy support", "Custom reporting", "Priority support"]
             }
           ]}
           animationType="slide-up"
