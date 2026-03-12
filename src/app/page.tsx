@@ -75,7 +75,7 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Website Design",              description: "🏃 24-48 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "Website Design",              description: " 24-72 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, and click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
             },
             {
               id: 2,
