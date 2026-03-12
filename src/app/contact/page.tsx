@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Mail, Rocket } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -37,7 +37,7 @@ export default function ContactPage() {
         <ContactSplit
           tag="Get In Touch"
           tagIcon={Mail}
-          title="See What’s Possible for Your Business "
+          title="See What's Possible for Your Business "
           description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative producti"
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
