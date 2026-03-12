@@ -122,7 +122,7 @@ export default function LandingPage() {
             },
             {
               id: 2,
-              title: "We Build Your Website",              description: "✅ 24-72 hour delivery: We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Most agencies take 3-6 weeks. We move faster with industry-leading speed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
+              title: "We Build Your Website",              description: " 24-72 hour delivery: We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Most agencies take 3-6 weeks. We move faster with industry-leading speed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
             },
             {
               id: 3,
