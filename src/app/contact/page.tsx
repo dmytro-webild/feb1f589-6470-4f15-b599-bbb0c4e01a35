@@ -27,6 +27,7 @@ export default function ContactPage() {
             { name: "Services", id: "services" },
             { name: "Process", id: "process" },
             { name: "For", id: "for" },
+            { name: "Pricing", id: "/pricing" },
             { name: "About", id: "about" },
             { name: "Contact", id: "/contact" }
           ]}
