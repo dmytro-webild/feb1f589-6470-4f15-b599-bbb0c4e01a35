@@ -142,7 +142,7 @@ export default function LandingPage() {
           tagIcon={Target}
           products={[
             {
-              id: "1",              name: "Service Businesses",              price: "Contractors • Landscapers • Roofers",              variant: "Handymen • Plumbers • HVAC • Remodelers",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-company-logo-featuring-a-cl-1773240171168-edcfb9af.png",              imageAlt: "Service Business Logo"
+              id: "1",              name: "Service Businesses",              price: "Contractors • Landscapers • Roofers",              variant: "Handymen • Plumbers • HVAC • Remodelers",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png",              imageAlt: "Service Business Logo"
             },
             {
               id: "2",              name: "Local Service Industries",              price: "Barbershops • Gyms • Salons",              variant: "Aesthetics • Hair Services • Fitness Studios",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-company-logo-for-a-home-ser-1773240172200-a52bb718.png",              imageAlt: "Local Service Logo"
