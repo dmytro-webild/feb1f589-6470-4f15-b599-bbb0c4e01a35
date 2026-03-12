@@ -44,16 +44,13 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "starter",              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
+              id: "starter",              badge: "Popular",              price: "$200/mo",              features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
+              id: "professional",              badge: "Most Popular",              price: "$350/mo",              features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
+              id: "enterprise",              badge: "Enterprise",              price: "$500/mo",              features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
             }
           ]}
           animationType="slide-up"
@@ -70,16 +67,13 @@ export default function PricingPage() {
           tagIcon={Zap}
           plans={[
             {
-              id: "essential",              price: "$1,500",              subtitle: "Perfect for getting started",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Custom website design", "Basic Meta ads setup", "Initial creative package", "30-day support"]
+              id: "essential",              badge: "Getting Started",              price: "$1,500",              features: ["Custom website design", "Basic Meta ads setup", "Initial creative package", "30-day support"]
             },
             {
-              id: "professional",              price: "$2,500",              subtitle: "Most popular choice",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Advanced website design", "Full Meta ads management", "Monthly creative production", "3-month strategy support", "Performance optimization"]
+              id: "professional",              badge: "Most Popular",              price: "$2,500",              features: ["Advanced website design", "Full Meta ads management", "Monthly creative production", "3-month strategy support", "Performance optimization"]
             },
             {
-              id: "enterprise",              price: "$4,000",              subtitle: "Maximum growth potential",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Premium website design", "Dedicated ads manager", "Weekly creative delivery", "6-month strategy support", "Custom reporting", "Priority support"]
+              id: "enterprise",              badge: "Maximum Growth",              price: "$4,000",              features: ["Premium website design", "Dedicated ads manager", "Weekly creative delivery", "6-month strategy support", "Custom reporting", "Priority support"]
             }
           ]}
           animationType="slide-up"
