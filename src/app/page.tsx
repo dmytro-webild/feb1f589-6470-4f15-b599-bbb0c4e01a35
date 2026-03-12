@@ -151,7 +151,7 @@ export default function LandingPage() {
               id: "3",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png",              imageAlt: "E-Commerce Logo"
             },
             {
-              id: "4",              name: "Professional Services",              price: "Consulting • Agencies • Advisor",              variant: "Brokers • Coaches • Digital Agencies",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png",              imageAlt: "Professional Services Logo"
+              id: "4",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png",              imageAlt: "Professional Services Logo"
             }
           ]}
           gridVariant="uniform-all-items-equal"
