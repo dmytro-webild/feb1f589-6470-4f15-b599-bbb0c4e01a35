@@ -151,7 +151,7 @@ export default function LandingPage() {
               id: "3",              name: "E-Commerce Brands",              price: "Online Retail • Direct-to-Consumer",              variant: "Product-Based • Dropshipping • SaaS",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png",              imageAlt: "E-Commerce Logo"
             },
             {
-              id: "4",              name: "Professional Services",              price: "Consulting • Agencies • Advisors",              variant: "Brokers • Coaches • Digital Agencies",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-company-logo-for-a-consulti-1773240171175-4c6b60a1.png",              imageAlt: "Professional Services Logo"
+              id: "4",              name: "Professional Services",              price: "Consulting • Agencies • Advisors",              variant: "Brokers • Coaches • Digital Agencies",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png",              imageAlt: "Professional Services Logo"
             }
           ]}
           gridVariant="uniform-all-items-equal"
