@@ -75,7 +75,7 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Website Design",              description: " 24-72 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, and click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "Website Design",              description: "24-72 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, and click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
             },
             {
               id: 2,
@@ -122,7 +122,7 @@ export default function LandingPage() {
             },
             {
               id: 2,
-              title: "We Build Your Website",              description: " 24-72 hour delivery: We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Most agencies take 3-6 weeks. We move faster with industry-leading speed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
+              title: "We Build Your Website",              description: "24-72 hour delivery: We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Most agencies take 3-6 weeks. We move faster with industry-leading speed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
             },
             {
               id: 3,
@@ -158,6 +158,8 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
+          cardClassName="flex flex-col h-full overflow-hidden"
+          imageClassName="w-full h-64 object-cover object-center"
         />
       </div>
 
