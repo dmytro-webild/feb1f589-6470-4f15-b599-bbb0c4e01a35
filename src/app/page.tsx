@@ -75,15 +75,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Website Design",              description: "A multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, click-to-call buttons, and fast turnaround within 24-48 hours.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "Website Design",              description: "🏃 24-48 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
             },
             {
               id: 2,
-              title: "Meta Ads Management",              description: "Strategic Facebook and Instagram advertising focused on customer acquisition. We research your audience, set up campaigns, optimize for leads or sales, and continuously improve performance based on results.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png"
+              title: "Meta Ads Management",              description: "✓ Proven results: Strategic Facebook and Instagram advertising focused on customer acquisition. We research your audience, set up campaigns, optimize for leads or sales, and continuously improve performance based on results.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png"
             },
             {
               id: 3,
-              title: "Monthly Ad Creative",              description: "Ongoing creative production to support your ad campaigns. Multiple hooks, copy variations, ad sizes, and formats delivered ready to upload. Stay competitive with fresh creative angles every month.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png"
+              title: "Monthly Ad Creative",              description: "📦 Delivered monthly: Ongoing creative production to support your ad campaigns. Multiple hooks, copy variations, ad sizes, and formats delivered ready to upload. Stay competitive with fresh creative angles every month.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png"
             }
           ]}
           textboxLayout="default"
@@ -122,7 +122,7 @@ export default function LandingPage() {
             },
             {
               id: 2,
-              title: "We Build Your Website",              description: "We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Typically completed within 24-48 hours. Most agencies take 3-6 weeks. We move faster.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
+              title: "We Build Your Website",              description: "✅ 24-48 hour delivery: We create a customer-focused, high-converting website designed to generate leads, calls, bookings, or sales. Most agencies take 3-6 weeks. We move faster with industry-leading speed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-a-designer-or-1773240172767-2a1dd349.png"
             },
             {
               id: 3,
