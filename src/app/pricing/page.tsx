@@ -44,15 +44,15 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "starter",              badge: "Starter",              price: "$200/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "starter",              subtitle: "Perfect for small businesses",              price: "$200/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              badge: "Professional",              price: "$350/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "professional",              subtitle: "Ideal for growing companies",              price: "$350/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              badge: "Enterprise",              price: "$500/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "enterprise",              subtitle: "For established brands",              price: "$500/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
             }
           ]}
@@ -70,15 +70,15 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "website",              badge: "Website",              price: "Starting at $2,500",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "website",              subtitle: "Fast & effective web solutions",              price: "Starting at $2,500",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["24-72 hour delivery", "Mobile optimized", "Lead capture forms", "Click-to-call buttons", "SEO ready"]
             },
             {
-              id: "ads",              badge: "Facebook & Instagram Ads",              price: "Starting at $1,000",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "ads",              subtitle: "Strategic ad management",              price: "Starting at $1,000",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["Audience research", "Campaign setup", "Lead optimization", "Performance tracking", "Monthly reporting"]
             },
             {
-              id: "creative",              badge: "Monthly Creative",              price: "Starting at $200/mo",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "creative",              subtitle: "Monthly creative production",              price: "Starting at $200/mo",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["Multiple variations", "Various formats", "Copy testing", "Platform specs", "Ready to launch"]
             }
           ]}
