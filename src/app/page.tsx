@@ -154,12 +154,10 @@ export default function LandingPage() {
               id: "4",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png",              imageAlt: "Professional Services Logo"
             }
           ]}
-          gridVariant="uniform-all-items-equal"
+          gridVariant="bento-grid"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
-          cardClassName="flex flex-col h-full overflow-hidden"
-          imageClassName="w-full h-64 object-cover object-center"
         />
       </div>
 
