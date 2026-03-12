@@ -44,18 +44,15 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "starter",              badge: "Good for Beginners",              badgeIcon: Sparkles,
-              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "starter",              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
-              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "professional",              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
-              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "enterprise",              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
             }
           ]}
@@ -73,18 +70,15 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "website",              badge: "Web Design",              badgeIcon: Sparkles,
-              price: "Starting at $2,500",              subtitle: "High-converting website design",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "website",              price: "Starting at $2,500",              subtitle: "High-converting website design",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["24-72 hour delivery", "Mobile optimized", "Lead capture forms", "Click-to-call buttons", "SEO ready"]
             },
             {
-              id: "ads",              badge: "Ads Management",              badgeIcon: Zap,
-              price: "Starting at $1,000",              subtitle: "Strategic Facebook & Instagram ads",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "ads",              price: "Starting at $1,000",              subtitle: "Strategic Facebook & Instagram ads",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["Audience research", "Campaign setup", "Lead optimization", "Performance tracking", "Monthly reporting"]
             },
             {
-              id: "creative",              badge: "Ad Creative",              badgeIcon: Star,
-              price: "Starting at $200/mo",              subtitle: "Professional monthly ad creative",              buttons: [{ text: "Learn More", href: "/contact" }],
+              id: "creative",              price: "Starting at $200/mo",              subtitle: "Professional monthly ad creative",              buttons: [{ text: "Learn More", href: "/contact" }],
               features: ["Multiple variations", "Various formats", "Copy testing", "Platform specs", "Ready to launch"]
             }
           ]}
