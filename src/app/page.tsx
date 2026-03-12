@@ -91,6 +91,21 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="textbox" data-section="textbox">
+        <div style={{
+          maxWidth: "800px",          margin: "0 auto",          padding: "3rem 1.5rem",          textAlign: "center"
+        }}>
+          <h2 style={{
+            fontSize: "2rem",            fontWeight: "700",            marginBottom: "1rem",            color: "var(--foreground)"
+          }}>Welcome to Our Text Box</h2>
+          <p style={{
+            fontSize: "1.125rem",            lineHeight: "1.6",            color: "var(--foreground)",            opacity: "0.9"
+          }}>
+            This is a simple text box section added to the home page. You can add any content you want here, including text, paragraphs, or any other information you'd like to display to your visitors.
+          </p>
+        </div>
+      </div>
+
       <div id="demo-website" data-section="demo-website">
         <MetricSplitMediaAbout
           tag="Low-Friction Path to Results"
