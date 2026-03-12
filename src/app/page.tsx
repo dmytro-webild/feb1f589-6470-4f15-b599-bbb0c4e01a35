@@ -101,7 +101,7 @@ export default function LandingPage() {
             { value: "24-48 hrs", title: "Turnaround Time" },
             { value: "Free", title: "Demo Website" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-gorgeous-professional-website-mockup-d-1773240173927-fb2f8a9b.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-gorgeous-professional-website-mockup-d-1773240173927-fb2f8a9b.png?_wi=1"
           imageAlt="Demo website preview mockup"
           useInvertedBackground={true}
           mediaAnimation="slide-up"
