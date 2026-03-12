@@ -35,7 +35,7 @@ export default function LandingPage() {
             { name: "Process", id: "process" },
             { name: "For", id: "for" },
             { name: "About", id: "about" },
-            { name: "Contact", id: "contact" }
+            { name: "Contact", id: "/contact" }
           ]}
         />
       </div>
@@ -48,8 +48,8 @@ export default function LandingPage() {
           tag="Customer Acquisition Engine"
           tagIcon={Zap}
           buttons={[
-            { text: "Get Your Free Demo Website", href: "contact" },
-            { text: "Book a Call", href: "contact" }
+            { text: "Get Your Free Demo Website", href: "/contact" },
+            { text: "Book a Call", href: "/contact" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png"
           imageAlt="High-converting website design mockup"
@@ -170,17 +170,17 @@ export default function LandingPage() {
           plans={[
             {
               id: "starter",              badge: "Good for Beginners",              badgeIcon: Sparkles,
-              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "contact" }],
+              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Star,
-              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "contact" }],
+              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
               id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
-              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "contact" }],
+              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support", "Quarterly strategy sessions"]
             }
           ]}
@@ -246,8 +246,8 @@ export default function LandingPage() {
           title="Start Getting More Customers Today"
           description="Let's discuss your customer acquisition goals and build a strategy that brings you results. Whether you need a website, ads, creative, or a complete system, we're ready to help."
           buttons={[
-            { text: "Request Your Free Demo Website", href: "contact" },
-            { text: "Schedule a Call", href: "contact" }
+            { text: "Request Your Free Demo Website", href: "/contact" },
+            { text: "Schedule a Call", href: "/contact" }
           ]}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
