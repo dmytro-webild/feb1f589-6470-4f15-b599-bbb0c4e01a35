@@ -38,7 +38,7 @@ export default function ContactPage() {
           tag="Get In Touch"
           tagIcon={Mail}
           title="See What’s Possible for Your Business "
-          description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative production, or a complete system, we're here to help."
+          description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative producti"
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/premium-photo/abstract-futuristic-blue-background-technology-glowing-lines_118195-51.jpg?id=5040937"
