@@ -49,7 +49,7 @@ export default function LandingPage() {
           tagIcon={Zap}
           buttons={[
             { text: "Get Your Free Demo Website", href: "/contact" },
-            { text: "Schedule a meetingl", href: "/contact" }
+            { text: "Schedule a meeting", href: "/contact" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png"
           imageAlt="High-converting website design mockup"
