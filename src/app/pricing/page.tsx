@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import PricingCardNine from '@/components/sections/pricing/PricingCardNine';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { DollarSign, Sparkles, Star, Zap, Rocket } from "lucide-react";
@@ -44,47 +43,24 @@ export default function PricingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "starter",              subtitle: "Popular",              price: "$200/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "starter",              badge: "Good for Beginners",              badgeIcon: Sparkles,
+              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              subtitle: "Most Popular",              price: "$350/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
+              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              subtitle: "Enterprise",              price: "$500/mo",              buttons: [{ text: "Get Started", href: "/contact" }],
+              id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
+              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support"]
             }
           ]}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
-        />
-      </div>
-
-      <div id="pricing-nine" data-section="pricing-nine">
-        <PricingCardNine
-          title="Service Plans"
-          description="Comprehensive packages designed to help your business grow with our complete customer acquisition system."
-          tag="All-in-One Solutions"
-          tagIcon={Zap}
-          plans={[
-            {
-              id: "essential",              subtitle: "Getting Started",              price: "$1,500",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Custom website design", "Basic Meta ads setup", "Initial creative package", "30-day support"]
-            },
-            {
-              id: "professional",              subtitle: "Most Popular",              price: "$2,500",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Advanced website design", "Full Meta ads management", "Monthly creative production", "3-month strategy support", "Performance optimization"]
-            },
-            {
-              id: "enterprise",              subtitle: "Maximum Growth",              price: "$4,000",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["Premium website design", "Dedicated ads manager", "Weekly creative delivery", "6-month strategy support", "Custom reporting", "Priority support"]
-            }
-          ]}
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={true}
         />
       </div>
 
