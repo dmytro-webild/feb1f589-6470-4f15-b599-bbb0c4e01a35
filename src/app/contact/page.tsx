@@ -37,11 +37,11 @@ export default function ContactPage() {
         <ContactSplit
           tag="Get In Touch"
           tagIcon={Mail}
-          title="Let's Talk About Your Customer Acquisition Goals"
+          title="Get More Customers — Let’s Talk "
           description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative production, or a complete system, we're here to help."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-gorgeous-professional-website-mockup-d-1773240173927-fb2f8a9b.png?_wi=2"
+          imageSrc="http://img.b2bpic.net/premium-photo/abstract-futuristic-blue-background-technology-glowing-lines_118195-51.jpg?id=5040937"
           imageAlt="Contact us mockup"
           mediaAnimation="slide-up"
           mediaPosition="right"
