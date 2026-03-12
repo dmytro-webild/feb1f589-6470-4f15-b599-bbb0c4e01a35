@@ -3,6 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
+import PricingCardNine from '@/components/sections/pricing/PricingCardNine';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { DollarSign, Sparkles, Star, Zap, Rocket } from "lucide-react";
@@ -61,6 +62,35 @@ export default function PricingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+        />
+      </div>
+
+      <div id="pricing-nine" data-section="pricing-nine">
+        <PricingCardNine
+          title="Service Packages"
+          description="Comprehensive solutions tailored to your business needs with flexible pricing options."
+          tag="Our Services"
+          tagIcon={DollarSign}
+          plans={[
+            {
+              id: "website",              badge: "Web Design",              badgeIcon: Sparkles,
+              price: "Starting at $2,500",              subtitle: "High-converting website design",              buttons: [{ text: "Learn More", href: "/contact" }],
+              features: ["24-72 hour delivery", "Mobile optimized", "Lead capture forms", "Click-to-call buttons", "SEO ready"]
+            },
+            {
+              id: "ads",              badge: "Ads Management",              badgeIcon: Zap,
+              price: "Starting at $1,000",              subtitle: "Strategic Facebook & Instagram ads",              buttons: [{ text: "Learn More", href: "/contact" }],
+              features: ["Audience research", "Campaign setup", "Lead optimization", "Performance tracking", "Monthly reporting"]
+            },
+            {
+              id: "creative",              badge: "Ad Creative",              badgeIcon: Star,
+              price: "Starting at $200/mo",              subtitle: "Professional monthly ad creative",              buttons: [{ text: "Learn More", href: "/contact" }],
+              features: ["Multiple variations", "Various formats", "Copy testing", "Platform specs", "Ready to launch"]
+            }
+          ]}
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={true}
         />
       </div>
 
