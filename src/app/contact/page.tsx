@@ -37,7 +37,7 @@ export default function ContactPage() {
         <ContactSplit
           tag="Get In Touch"
           tagIcon={Mail}
-          title="Get More Customers — Let’s Talk "
+          title="See What’s Possible for Your Business "
           description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative production, or a complete system, we're here to help."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
