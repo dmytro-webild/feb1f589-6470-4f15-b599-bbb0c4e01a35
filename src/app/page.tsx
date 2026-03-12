@@ -196,7 +196,7 @@ export default function LandingPage() {
             {
               id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
               price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
-              features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support", "Quarterly strategy sessions"]
+              features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", "Unlimited revisions", "Dedicated creative support", ""]
             }
           ]}
           animationType="slide-up"
