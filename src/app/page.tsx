@@ -142,10 +142,10 @@ export default function LandingPage() {
           tagIcon={Target}
           products={[
             {
-              id: "1",              name: "Service Businesses",              price: "Contractors • Landscapers • Roofers",              variant: "Handymen • Plumbers • HVAC • Remodelers",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png",              imageAlt: "Service Business Logo"
+              id: "1",              name: "Handymen",              price: "Plumbers • HVAC",              variant: "Remodelers • Contractors",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png",              imageAlt: "Service Business Logo"
             },
             {
-              id: "2",              name: "Local Service Industries",              price: "Barbershops • Gyms • Salons",              variant: "Aesthetics • Hair Services • Fitness Studios",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png",              imageAlt: "Local Service Logo"
+              id: "2",              name: "Landscapers",              price: "Electricians • Interior",              variant: "Designers • Local Services",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png",              imageAlt: "Local Service Logo"
             },
             {
               id: "3",              name: "E-Commerce Brands",              price: "Online Retail • Direct-to-Consumer",              variant: "Product-Based • Dropshipping • SaaS",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png",              imageAlt: "E-Commerce Logo"
