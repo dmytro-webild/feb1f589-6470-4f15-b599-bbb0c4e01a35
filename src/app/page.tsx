@@ -34,7 +34,7 @@ export default function LandingPage() {
             { name: "Services", id: "services" },
             { name: "Process", id: "process" },
             { name: "For", id: "for" },
-            { name: "About", id: "about" },
+            { name: "About", id: "/about" },
             { name: "Contact", id: "/contact" }
           ]}
         />
