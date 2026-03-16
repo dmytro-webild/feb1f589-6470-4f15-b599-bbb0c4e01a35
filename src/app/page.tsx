@@ -7,11 +7,10 @@ import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Zap, Layers, Sparkles, CheckCircle, Target, DollarSign, Quote, Rocket, Users, Star } from "lucide-react";
+import { Zap, Layers, Sparkles, CheckCircle, Target, DollarSign, Rocket, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -174,50 +173,15 @@ export default function LandingPage() {
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
+              id: "professional",              badge: "Most Popular",              badgeIcon: Zap,
               price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
-              id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Zap,
+              id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Rocket,
               price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", " Creative tailored to your offer and audience", "Dedicated creative support", "Structured revision rounds included  "]
             }
-          ]}
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-        />
-      </div>
-
-      <div id="about" data-section="about">
-        <TestimonialCardSixteen
-          title="What Our Clients Say"
-          description="Real results from businesses that trusted Convrsn to transform their customer acquisition online."
-          tag="Client Testimonials"
-          tagIcon={Quote}
-          testimonials={[
-            {
-              id: "1",              name: "Mark Johnson ",              role: "Founder & CEO",              company: "Johnson Construction",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-confident-ent-1773240173131-9be7d8c7.png?_wi=2"
-            },
-            {
-              id: "2",              name: "Sarah Johnson ",              role: "Owner",              company: "Digital Marketing Agency",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-business-prof-1773240172753-c1cf042a.png?_wi=2"
-            },
-            {
-              id: "3",              name: "Emily Rodriguez",              role: "E-Commerce Director",              company: "Fashion & Retail Co",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-female-busine-1773240171458-9b3db851.png?_wi=2"
-            },
-            {
-              id: "4",              name: "Michaela Williams",              role: "Service Business Owner",              company: "Premium Home Services",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-creative-prof-1773240172454-7572c59b.png?_wi=2"
-            }
-          ]}
-          kpiItems={[
-            { value: "3.2x", label: "Average ROI Improvement" },
-            { value: "47%", label: "Lead Generation Increase" },
-            { value: "2.1x", label: "Customer Acquisition Growth" }
           ]}
           animationType="slide-up"
           textboxLayout="default"
