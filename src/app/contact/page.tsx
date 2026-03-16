@@ -39,7 +39,7 @@ export default function ContactPage() {
           description="We'd love to hear from you. Reach out to us directly with any questions or to discuss how we can help grow your business."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png?_wi=2"
           imageAlt="Contact form illustration"
           mediaAnimation="slide-up"
           mediaPosition="right"
