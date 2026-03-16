@@ -67,7 +67,7 @@ export default function ContactPage() {
               ]
             }
           ]}
-          copyrightText="© 2024 Convrsn. All rights reserved."
+          copyrightText="© 2026 Convrsn. All rights reserved."
         />
       </div>
     </ThemeProvider>
