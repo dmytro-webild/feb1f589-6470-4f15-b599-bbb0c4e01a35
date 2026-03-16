@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
 export default function ContactPage() {
@@ -33,13 +33,20 @@ export default function ContactPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactText
-          text="See What's Possible for Your Business"
+        <ContactSplit
+          tag="Get In Touch"
+          title="Let's Talk About Your Project"
+          description="We'd love to hear from you. Reach out to us directly with any questions or to discuss how we can help grow your business."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          buttons={[
-            { text: "Get In Touch", onClick: () => console.log('Contact clicked') }
-          ]}
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png"
+          imageAlt="Contact form illustration"
+          mediaAnimation="slide-up"
+          mediaPosition="right"
+          inputPlaceholder="Enter your email"
+          buttonText="Send Message"
+          termsText="By contacting us, you agree to our Terms and Conditions."
+          onSubmit={(email) => console.log('Contact form submitted:', email)}
         />
       </div>
 
