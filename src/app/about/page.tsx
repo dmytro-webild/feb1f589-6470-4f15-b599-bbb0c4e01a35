@@ -3,9 +3,8 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Sparkles, Quote, Users } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -49,41 +48,6 @@ export default function AboutPage() {
           useInvertedBackground={true}
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
-        />
-      </div>
-
-      <div id="about" data-section="about">
-        <TestimonialCardSixteen
-          title="What Our Clients Say"
-          description="Real results from businesses that trusted Convrsn to transform their customer acquisition online."
-          tag="Client Testimonials"
-          tagIcon={Quote}
-          testimonials={[
-            {
-              id: "1",              name: "Mark Johnson ",              role: "Founder & CEO",              company: "Johnson Construction",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-vector/grid-point-connecting-background_1409-894.jpg?id=6233509"
-            },
-            {
-              id: "2",              name: "Sarah Johnson ",              role: "Owner",              company: "Digital Marketing Agency",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/premium-photo/security-cyber-digital-concept-abstract-technology-background_42421-211.jpg?id=3303135"
-            },
-            {
-              id: "3",              name: "Emily Rodriguez",              role: "E-Commerce Director",              company: "Fashion & Retail Co",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/premium-photo/digital-cyberspace-with-particles-digital-data-network-connections-future-technology-digital-abstract_24070-1007.jpg?id=8507176"
-            },
-            {
-              id: "4",              name: "Michaela Williams",              role: "Service Business Owner",              company: "Premium Home Services",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-creative-prof-1773240172454-7572c59b.png?_wi=1"
-            }
-          ]}
-          kpiItems={[
-            { value: "3.2x", label: "Average ROI Improvement" },
-            { value: "47%", label: "Lead Generation Increase" },
-            { value: "2.1x", label: "Customer Acquisition Growth" }
-          ]}
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
         />
       </div>
 
