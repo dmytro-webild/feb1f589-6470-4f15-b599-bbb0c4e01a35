@@ -2,9 +2,8 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Mail } from "lucide-react";
+import ContactText from '@/components/sections/contact/ContactText';
+import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
 export default function ContactPage() {
   return (
@@ -34,22 +33,34 @@ export default function ContactPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactSplitForm
-          tag="Get In Touch"
-          tagIcon={Mail}
-          title="See What's Possible for Your Business "
-          description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative production, or a complete customer acquisition system."
+        <ContactText
+          text="See What's Possible for Your Business"
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          onSubmit={(formData) => console.log('Contact form submitted:', formData)}
+          buttons={[
+            { text: "Get In Touch", onClick: () => console.log('Contact clicked') }
+          ]}
         />
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterLogoReveal
-          logoText="Convrsn"
-          leftLink={{ text: "Privacy Policy", href: "#" }}
-          rightLink={{ text: "Terms of Service", href: "#" }}
+        <FooterBaseReveal
+          columns={[
+            {
+              title: "Company",              items: [
+                { label: "About", href: "#" },
+                { label: "Services", href: "#" },
+                { label: "Contact", href: "#" }
+              ]
+            },
+            {
+              title: "Legal",              items: [
+                { label: "Privacy Policy", href: "#" },
+                { label: "Terms of Service", href: "#" }
+              ]
+            }
+          ]}
+          copyrightText="© 2024 Convrsn. All rights reserved."
         />
       </div>
     </ThemeProvider>
