@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Mail } from "lucide-react";
 
@@ -34,21 +34,14 @@ export default function ContactPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactSplit
+        <ContactSplitForm
           tag="Get In Touch"
           tagIcon={Mail}
           title="See What's Possible for Your Business "
-          description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative producti"
+          description="Ready to grow your business? Share your information and let's schedule a call to discuss your needs. Whether you're looking for a website, ads management, creative production, or a complete customer acquisition system."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/premium-photo/abstract-futuristic-blue-background-technology-glowing-lines_118195-51.jpg?id=5040937"
-          imageAlt="Contact us mockup"
-          mediaAnimation="slide-up"
-          mediaPosition="right"
-          inputPlaceholder="your@email.com"
-          buttonText="Get Started"
-          termsText="We respect your privacy. We'll only use your information to discuss your customer acquisition needs."
-          onSubmit={(email) => console.log('Contact form submitted:', email)}
+          onSubmit={(formData) => console.log('Contact form submitted:', formData)}
         />
       </div>
 
