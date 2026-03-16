@@ -198,11 +198,11 @@ export default function LandingPage() {
           tagIcon={Quote}
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              role: "Founder & CEO",              company: "Johnson Construction",              rating: 5,
+              id: "1",              name: "Mark Johnson ",              role: "Founder & CEO",              company: "Johnson Construction",              rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-confident-ent-1773240173131-9be7d8c7.png"
             },
             {
-              id: "2",              name: "Michael Chen",              role: "Owner",              company: "Digital Marketing Agency",              rating: 5,
+              id: "2",              name: "Sarah Johnson ",              role: "Owner",              company: "Digital Marketing Agency",              rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-business-prof-1773240172753-c1cf042a.png"
             },
             {
@@ -210,7 +210,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-female-busine-1773240171458-9b3db851.png"
             },
             {
-              id: "4",              name: "David Williams",              role: "Service Business Owner",              company: "Premium Home Services",              rating: 5,
+              id: "4",              name: "Michaela Williams",              role: "Service Business Owner",              company: "Premium Home Services",              rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/professional-headshot-of-a-creative-prof-1773240172454-7572c59b.png"
             }
           ]}
