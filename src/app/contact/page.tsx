@@ -2,8 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactSplit from '@/components/sections/contact/ContactSplit';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import ContactFaq from '@/components/sections/contact/ContactFaq';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
+import { Phone, Mail, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -33,41 +34,35 @@ export default function ContactPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactSplit
-          tag="Get In Touch"
-          title="Let's Talk About Your Project"
-          description="We'd love to hear from you. Reach out to us directly with any questions or to discuss how we can help grow your business."
-          background={{ variant: "sparkles-gradient" }}
+        <ContactFaq
+          ctaTitle="Starter Plan Contact"
+          ctaDescription="Interested in our $200/mo ad creative package? Fill out the form below and we'll get back to you within 24 hours."
+          ctaButton={{ text: "Send Message", href: "#" }}
+          ctaIcon={MessageCircle}
+          faqs={[
+            {
+              id: "1",              title: "What's included in the Starter Plan?",              content: "The Starter Plan includes 4-6 ad variations monthly with multiple hooks and angles, primary ad text and headlines, correct ad sizes and formats, and assets ready to upload. Perfect for businesses just getting started with paid advertising."
+            },
+            {
+              id: "2",              title: "How often do I receive new creative?",              content: "New creative is delivered monthly, giving you fresh angles and variations to test different messaging and visual approaches with your audience."
+            },
+            {
+              id: "3",              title: "Can I upgrade or downgrade anytime?",              content: "Yes, you can upgrade to our Professional or Enterprise plans at any time, or downgrade as needed. We offer flexible month-to-month billing."
+            },
+            {
+              id: "4",              title: "What if I need revisions?",              content: "We include revision rounds in our service. Let us know what adjustments you need and we'll refine the creative to better match your vision."
+            }
+          ]}
+          animationType="slide-up"
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/a-modern-clean-website-design-mockup-dis-1773240171755-25981f6a.png?_wi=2"
-          imageAlt="Contact form illustration"
-          mediaAnimation="slide-up"
-          mediaPosition="right"
-          inputPlaceholder="Enter your email"
-          buttonText="Send Message"
-          termsText="By contacting us, you agree to our Terms and Conditions."
-          onSubmit={(email) => console.log('Contact form submitted:', email)}
         />
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterBaseReveal
-          columns={[
-            {
-              title: "Company",              items: [
-                { label: "About", href: "#" },
-                { label: "Services", href: "#" },
-                { label: "Contact", href: "#" }
-              ]
-            },
-            {
-              title: "Legal",              items: [
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Service", href: "#" }
-              ]
-            }
-          ]}
-          copyrightText="© 2026 Convrsn. All rights reserved."
+        <FooterLogoReveal
+          logoText="Convrsn"
+          leftLink={{ text: "Privacy Policy", href: "#" }}
+          rightLink={{ text: "Terms of Service", href: "#" }}
         />
       </div>
     </ThemeProvider>
