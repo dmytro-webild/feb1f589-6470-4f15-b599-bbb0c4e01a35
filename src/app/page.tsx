@@ -11,8 +11,23 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Zap, Layers, Sparkles, CheckCircle, Target, DollarSign, Rocket, Users } from "lucide-react";
+import { useState } from "react";
+import ContactFormModal from '@/components/modals/ContactFormModal';
 
 export default function LandingPage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
+
+  const openModal = (planName: string) => {
+    setSelectedPlan(planName);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedPlan(null);
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="expand-hover"
@@ -169,17 +184,17 @@ export default function LandingPage() {
           plans={[
             {
               id: "starter",              badge: "Good for Beginners",              badgeIcon: Sparkles,
-              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Get Started", href: "/contact" }],
+              price: "$200/mo",              subtitle: "Fresh creative angles monthly",              buttons: [{ text: "Request Starter Plan", onClick: () => openModal("Starter Plan") }],
               features: ["4-6 ad variations", "Multiple hooks and angles", "Primary ad text and headlines", "Correct ad sizes and formats", "Ready to upload"]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Zap,
-              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/about" }],
+              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Request Growth Plan", onClick: () => openModal("Growth Plan") }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
               id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Rocket,
-              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/enterprise" }],
+              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Request Premium Plan", onClick: () => openModal("Premium Plan") }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", " Creative tailored to your offer and audience", "Dedicated creative support", "Structured revision rounds included  "]
             }
           ]}
@@ -225,6 +240,13 @@ export default function LandingPage() {
           rightLink={{ text: "Terms of Service", href: "#" }}
         />
       </div>
+
+      {isModalOpen && (
+        <ContactFormModal
+          planName={selectedPlan}
+          onClose={closeModal}
+        />
+      )}
     </ThemeProvider>
   );
 }
