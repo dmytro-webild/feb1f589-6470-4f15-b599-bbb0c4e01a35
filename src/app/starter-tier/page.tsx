@@ -63,19 +63,19 @@ export default function StarterTierPage() {
           features={[
             {
               id: 1,
-              title: "4-6 Ad Variations",              description: "Multiple creative options each month with different visual styles and messaging angles to test what resonates with your audience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "4-6 Ad Variations",              description: "Multiple creative options each month with different visual styles and messaging angles to test what resonates with your audience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png?_wi=2"
             },
             {
               id: 2,
-              title: "Multiple Hooks and Angles",              description: "Different opening statements and visual approaches to capture attention and drive engagement. Perfect for A/B testing.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png"
+              title: "Multiple Hooks and Angles",              description: "Different opening statements and visual approaches to capture attention and drive engagement. Perfect for A/B testing.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png?_wi=2"
             },
             {
               id: 3,
-              title: "Ready-to-Upload Specs",              description: "All creatives delivered in correct ad sizes and formats optimized for Facebook and Instagram. No technical adjustments needed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png"
+              title: "Ready-to-Upload Specs",              description: "All creatives delivered in correct ad sizes and formats optimized for Facebook and Instagram. No technical adjustments needed.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png?_wi=2"
             },
             {
               id: 4,
-              title: "Primary Ad Copy & Headlines",              description: "Professionally written ad text and headlines tailored to your business, with variations to test different messaging angles.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png"
+              title: "Primary Ad Copy & Headlines",              description: "Professionally written ad text and headlines tailored to your business, with variations to test different messaging angles.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png?_wi=2"
             }
           ]}
           textboxLayout="default"
@@ -92,15 +92,15 @@ export default function StarterTierPage() {
           features={[
             {
               id: 1,
-              title: "Bootstrapping Startups",              description: "Get professional creative production at a lean budget. Test campaigns with limited ad spend while validating your market.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png"
+              title: "Bootstrapping Startups",              description: "Get professional creative production at a lean budget. Test campaigns with limited ad spend while validating your market.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png?_wi=2"
             },
             {
               id: 2,
-              title: "Testing New Markets",              description: "Launching in a new niche or trying new audiences? Get fresh creative angles monthly to test different approaches.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png"
+              title: "Testing New Markets",              description: "Launching in a new niche or trying new audiences? Get fresh creative angles monthly to test different approaches.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png?_wi=2"
             },
             {
               id: 3,
-              title: "Service Businesses",              description: "Local service providers who need consistent fresh ads without the overhead of in-house creative production.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png"
+              title: "Service Businesses",              description: "Local service providers who need consistent fresh ads without the overhead of in-house creative production.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png?_wi=2"
             }
           ]}
           textboxLayout="default"
