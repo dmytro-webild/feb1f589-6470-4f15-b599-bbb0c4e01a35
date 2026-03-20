@@ -174,12 +174,12 @@ export default function LandingPage() {
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Zap,
-              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/contact" }],
+              price: "$350/mo",              subtitle: "Comprehensive creative support",              buttons: [{ text: "Get Started", href: "/about" }],
               features: ["8-12 ad variations", "Diverse visual angles", "Copy testing variations", "Multiple formats and sizes", "Platform-optimized specs", "Priority support"]
             },
             {
               id: "enterprise",              badge: "For Scaling Brands",              badgeIcon: Rocket,
-              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/contact" }],
+              price: "$500/mo",              subtitle: "Maximum creative output and strategy",              buttons: [{ text: "Get Started", href: "/enterprise" }],
               features: ["15+ ad variations monthly", "A/B testing frameworks", "Video and static assets", "Campaign-specific creative", " Creative tailored to your offer and audience", "Dedicated creative support", "Structured revision rounds included  "]
             }
           ]}
