@@ -74,15 +74,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Website Design",              description: "24-72 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, and click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "Website Design",              description: "24-72 hour delivery badge: Multi-page, high-converting website designed to bring you customers. Optimized for mobile and desktop with clear CTAs, lead capture forms, and click-to-call buttons. Industry-leading turnaround time.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png?_wi=1"
             },
             {
               id: 2,
-              title: "Meta Ads Management",              description: "✓ Proven results: Strategic Facebook and Instagram advertising focused on customer acquisition. We research your audience, set up campaigns, optimize for leads or sales, and continuously improve performance based on results.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png"
+              title: "Meta Ads Management",              description: "✓ Proven results: Strategic Facebook and Instagram advertising focused on customer acquisition. We research your audience, set up campaigns, optimize for leads or sales, and continuously improve performance based on results.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png?_wi=1"
             },
             {
               id: 3,
-              title: "Monthly Ad Creative",              description: "📦 Delivered monthly: Ongoing creative production to support your ad campaigns. Multiple hooks, copy variations, ad sizes, and formats delivered ready to upload. Stay competitive with fresh creative angles every month.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png"
+              title: "Monthly Ad Creative",              description: "📦 Delivered monthly: Ongoing creative production to support your ad campaigns. Multiple hooks, copy variations, ad sizes, and formats delivered ready to upload. Stay competitive with fresh creative angles every month.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png?_wi=1"
             }
           ]}
           textboxLayout="default"
@@ -125,7 +125,7 @@ export default function LandingPage() {
             },
             {
               id: 3,
-              title: "Start Getting Customers",              description: "Launch your site and support it with strategic Meta ads and professional creative. Watch leads, calls, and bookings come in. We continuously optimize to improve your customer acquisition.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png"
+              title: "Start Getting Customers",              description: "Launch your site and support it with strategic Meta ads and professional creative. Watch leads, calls, and bookings come in. We continuously optimize to improve your customer acquisition.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png?_wi=1"
             }
           ]}
           textboxLayout="default"
@@ -141,16 +141,16 @@ export default function LandingPage() {
           tagIcon={Target}
           products={[
             {
-              id: "1",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png",              imageAlt: "Service Business Logo"
+              id: "1",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png?_wi=1",              imageAlt: "Service Business Logo"
             },
             {
-              id: "2",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png",              imageAlt: "Local Service Logo"
+              id: "2",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png?_wi=1",              imageAlt: "Local Service Logo"
             },
             {
-              id: "3",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png",              imageAlt: "E-Commerce Logo"
+              id: "3",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png?_wi=1",              imageAlt: "E-Commerce Logo"
             },
             {
-              id: "4",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png",              imageAlt: "Professional Services Logo"
+              id: "4",              name: "",              price: "",              variant: "",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png?_wi=1",              imageAlt: "Professional Services Logo"
             }
           ]}
           gridVariant="bento-grid"
