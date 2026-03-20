@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactFaq from '@/components/sections/contact/ContactFaq';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Phone, Mail, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -35,9 +35,9 @@ export default function ContactPage() {
 
       <div id="contact" data-section="contact">
         <ContactFaq
-          ctaTitle="Starter Plan Contact"
+          ctaTitle="Request Starter Plan"
           ctaDescription="Interested in our $200/mo ad creative package? Fill out the form below and we'll get back to you within 24 hours."
-          ctaButton={{ text: "Send Message", href: "#" }}
+          ctaButton={{ text: "Request Starter Plan", href: "#" }}
           ctaIcon={MessageCircle}
           faqs={[
             {
@@ -47,7 +47,7 @@ export default function ContactPage() {
               id: "2",              title: "How often do I receive new creative?",              content: "New creative is delivered monthly, giving you fresh angles and variations to test different messaging and visual approaches with your audience."
             },
             {
-              id: "3",              title: "Can I upgrade or downgrade anytime?",              content: "Yes, you can upgrade to our Professional or Enterprise plans at any time, or downgrade as needed. We offer flexible month-to-month billing."
+              id: "3",              title: "Can I upgrade or downgrade anytime?",              content: "Yes, you can upgrade to our Professional or Growth plans at any time, or downgrade as needed. We offer flexible month-to-month billing."
             },
             {
               id: "4",              title: "What if I need revisions?",              content: "We include revision rounds in our service. Let us know what adjustments you need and we'll refine the creative to better match your vision."
