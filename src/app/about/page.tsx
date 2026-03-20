@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactFaq from '@/components/sections/contact/ContactFaq';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Phone, Mail, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -35,16 +35,16 @@ export default function AboutPage() {
 
       <div id="contact" data-section="contact">
         <ContactFaq
-          ctaTitle="Professional Plan Contact"
-          ctaDescription="Ready for comprehensive creative support? Our $350/mo Professional Plan is designed for businesses scaling their ad campaigns. Get in touch to learn more."
-          ctaButton={{ text: "Send Message", href: "#" }}
+          ctaTitle="Request Growth Plan"
+          ctaDescription="Ready for comprehensive creative support? Our $350/mo Growth Plan is designed for businesses scaling their ad campaigns. Get in touch to learn more."
+          ctaButton={{ text: "Request Growth Plan", href: "#" }}
           ctaIcon={MessageCircle}
           faqs={[
             {
-              id: "1",              title: "What's included in the Professional Plan?",              content: "The Professional Plan includes 8-12 ad variations monthly, diverse visual angles, copy testing variations, multiple formats and sizes, platform-optimized specifications, and priority support. This is our most popular plan for growing businesses."
+              id: "1",              title: "What's included in the Growth Plan?",              content: "The Growth Plan includes 8-12 ad variations monthly, diverse visual angles, copy testing variations, multiple formats and sizes, platform-optimized specifications, and priority support. This is our most popular plan for growing businesses."
             },
             {
-              id: "2",              title: "How is this different from the Starter Plan?",              content: "The Professional Plan offers double the creative output, more diverse visual approaches, built-in copy variations for A/B testing, and priority support to ensure your creative needs are always met quickly."
+              id: "2",              title: "How is this different from the Starter Plan?",              content: "The Growth Plan offers double the creative output, more diverse visual approaches, built-in copy variations for A/B testing, and priority support to ensure your creative needs are always met quickly."
             },
             {
               id: "3",              title: "Do you provide platform optimization?",              content: "Yes, all creative is optimized for platform specifications. We ensure every ad is formatted correctly for Facebook, Instagram, Reels, and other Meta platforms."
