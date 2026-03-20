@@ -63,27 +63,27 @@ export default function ProfessionalTierPage() {
           features={[
             {
               id: 1,
-              title: "8-12 Ad Variations Monthly",              description: "Nearly double the creative options from Starter. Get more testing possibilities and maintain campaign freshness across multiple audience segments.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png"
+              title: "8-12 Ad Variations Monthly",              description: "Nearly double the creative options from Starter. Get more testing possibilities and maintain campaign freshness across multiple audience segments.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-showing-website-design-elem-1773240172578-a3c8c2d4.png?_wi=3"
             },
             {
               id: 2,
-              title: "Diverse Visual Angles",              description: "Multiple photography styles, design approaches, and visual treatments to appeal to different audience segments and preferences.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png"
+              title: "Diverse Visual Angles",              description: "Multiple photography styles, design approaches, and visual treatments to appeal to different audience segments and preferences.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-audience-targ-1773240173056-7ab9eeb8.png?_wi=3"
             },
             {
               id: 3,
-              title: "Copy Testing Variations",              description: "Multiple ad copy and headline variations designed to test different value propositions, pain points, and CTAs with your audience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png"
+              title: "Copy Testing Variations",              description: "Multiple ad copy and headline variations designed to test different value propositions, pain points, and CTAs with your audience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/illustration-of-creative-content-product-1773240172341-89b17938.png?_wi=3"
             },
             {
               id: 4,
-              title: "Platform-Optimized Specs",              description: "Creatives optimized for all major ad platforms and placements. Facebook, Instagram, Reels - all delivered in perfect specifications.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png"
+              title: "Platform-Optimized Specs",              description: "Creatives optimized for all major ad platforms and placements. Facebook, Instagram, Reels - all delivered in perfect specifications.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png?_wi=3"
             },
             {
               id: 5,
-              title: "Multiple Formats & Sizes",              description: "Static images, carousel ads, video ads in multiple formats to test what drives best performance for your specific campaigns.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png"
+              title: "Multiple Formats & Sizes",              description: "Static images, carousel ads, video ads in multiple formats to test what drives best performance for your specific campaigns.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/professional-local-contractor-standing-n-1773326968021-51e00a46.png?_wi=3"
             },
             {
               id: 6,
-              title: "Priority Support",              description: "Direct line to your creative team. Fast turnarounds on revisions and ongoing strategic guidance to optimize your ad performance.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png"
+              title: "Priority Support",              description: "Direct line to your creative team. Fast turnarounds on revisions and ongoing strategic guidance to optimize your ad performance.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/modern-barber-or-aesthetic-professional--1773327044104-512242e1.png?_wi=3"
             }
           ]}
           textboxLayout="default"
@@ -100,15 +100,15 @@ export default function ProfessionalTierPage() {
           features={[
             {
               id: 1,
-              title: "Scaling E-Commerce Brands",              description: "Running consistent ad budgets and ready to test multiple creative approaches? Get the variety and support you need to find winning ads.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png"
+              title: "Scaling E-Commerce Brands",              description: "Running consistent ad budgets and ready to test multiple creative approaches? Get the variety and support you need to find winning ads.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-modern-workspace-with-product-pack-1773327115199-5b2b44d1.png?_wi=3"
             },
             {
               id: 2,
-              title: "Growth-Phase Agencies",              description: "Serve multiple clients with consistent monthly creative delivery. Get reliable, quality output to maintain client satisfaction and retention.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png"
+              title: "Growth-Phase Agencies",              description: "Serve multiple clients with consistent monthly creative delivery. Get reliable, quality output to maintain client satisfaction and retention.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/tmp/confident-business-professional-working--1773327576054-cf3ce66b.png?_wi=2"
             },
             {
               id: 3,
-              title: "Businesses with Proven PMF",              description: "You know your model works. Now you need professional creative support to scale acquisition without bottlenecking on in-house production.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png"
+              title: "Businesses with Proven PMF",              description: "You know your model works. Now you need professional creative support to scale acquisition without bottlenecking on in-house production.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ai86BRUMbva0WDBhojvh7eeV0v/clean-illustration-showing-business-grow-1773240171504-de7950b3.png?_wi=4"
             }
           ]}
           textboxLayout="default"
